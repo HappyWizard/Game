@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tic Tac Toe Game</title>
+      <link rel="stylesheet" href="style.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="heading-container">
+            <p>Tic Tac Toe Game</p>
+      </div>
+      <div class="outer-container">
+            <div class="popOut-window"></div>
+            <div class="loading-screen-container">
+                  <div class="loading-screen">
+                        <img class="rolling-pic" src="graphics/loadingPic.jpg" alt="">
+                        <span class="loading-screen-text">Loading.</span>
+                  </div>
+            </div>
+            <div class="inner-container">
+                  <div class="game-container">
+                        <div cell-index="1" class="cell"></div>
+                        <div cell-index="2" class="cell"></div>
+                        <div cell-index="3" class="cell"></div>
+                        <div cell-index="4" class="cell"></div>
+                        <div cell-index="5" class="cell"></div>
+                        <div cell-index="6" class="cell"></div>
+                        <div cell-index="7" class="cell"></div>
+                        <div cell-index="8" class="cell"></div>
+                        <div cell-index="9" class="cell"></div>
+                  </div>
+            </div>
+            <button class="restart-button">
+                  <img src="graphics/cross.jpg" alt="">
+                  <span class="restart-text" >Start Game!</span>
+                  <img src="graphics/circle.jpg" alt="">
+            </span></button>
+      
+            <p class="status-update">hello</p>
+      </div>
+      <script src="home.js"></script>
+</body>
+</html>
