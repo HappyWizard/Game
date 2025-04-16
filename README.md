@@ -5,7 +5,7 @@
 This game is meant for two players.
 
 ## How to Play?
-1. Click into the provided link: happywizard.github.io/Game/
+1. Click into the provided link: https://happywizard.github.io/Game/
 2. Click 'Start Game'
 3. Admire the loading page
 4. Get a friend
